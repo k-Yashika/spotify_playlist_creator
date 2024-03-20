@@ -24,21 +24,21 @@ This Python script allows you to create playlists on Spotify based on specific c
 4. Follow the prompts to crete playlists based on your preferred criteria
 
 # Documentation
-## 'create_playlist(name, description)'
+### 'create_playlist(name, description)'
 This function creates a new playlist on the user's Spotify account
 - 'name': The name of the playlist
 - 'description': The description of the playlist
 
-## 'search_tracks(criteria)'
+### 'search_tracks(criteria)'
 This function searches for tracks on Spotify based on the given criteria
 - 'criteria': The search criteria (e.g. artist, genre)
 
-## 'add_tracks_to_playlist(playlist_id, track_uris)'
+### 'add_tracks_to_playlist(playlist_id, track_uris)'
 This function adds tracks to a specified playlist on Spotify
 - 'playlist_id': The ID of the playlist
 - 'track_uris': List of URIs of the tracks to be added to the playlist
 
-## 'create_based_on_criteria(criteria, playlist_name, playlist_desc)'
+### 'create_based_on_criteria(criteria, playlist_name, playlist_desc)'
 This function creates a new playlist based on the given criteria and adds tracks to it
 - 'criteria': The search criteria (e.g. artist, genre)
 - 'playlist_name': The name of the playlist to be created
